@@ -48,6 +48,9 @@ section{
     height: 85px;
     justify-content: space-between;
     align-items: baseline;
+    position: sticky;
+    top: 0;
+    background-color: #FFFFFF;
 
 }
 .navlinks{
