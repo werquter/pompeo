@@ -4,7 +4,6 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/fonts.css" />
     <link
@@ -14,17 +13,18 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <title>Pompeo</title>
   </head>
   <body>
     <div class="nav">
       <div class="logo">Pompeo</div>
       <div class="navlinks">
-        <div class="home">HOME</div>
-        <div class="home">ABOUT</div>
-        <div class="home">SHOP</div>
-        <div class="home">CONTACT</div>
+        <div class="link">HOME</div>
+        <div class="link">ABOUT</div>
+        <div class="link">SHOP</div>
+        <div class="link">CONTACT</div>
         <div class="line"></div>
-        <div class="home cart"><img src="img/8.svg" alt="" />Cart</div>
+        <div class="link cart"><img src="img/8.svg" alt="" />Cart</div>
       </div>
     </div>
 
@@ -33,7 +33,7 @@
         <div class="pottery">Pompeo Pottery</div>
         <div class="pompeo">
           Unique Porcelain
-          <div class="i">&</div>
+          <span class="i">&</span>
         </div>
         <div class="pompeo">Stone Collection</div>
         <div class="unique">
@@ -49,15 +49,15 @@
 
       <div class="pompeo Porcelain">
         Porcelain
-        <div class="i">&</div>
+        <span class="i">&</span>
         <div class="pompeo">Pottery</div>
       </div>
     </div>
 
     <div class="circles">
-      <div class="circl one"><img src="img/5.svg" alt="" /> VASES</div>
-      <div class="circl two"><img src="img/6.svg" alt="" />MUGS</div>
-      <div class="circl three"><img src="img/7.svg" alt="" />PLATES</div>
+      <div class="circle one"><img src="img/5.svg" alt="" /> VASES</div>
+      <div class="circle two"><img src="img/6.svg" alt="" />MUGS</div>
+      <div class="circle three"><img src="img/7.svg" alt="" />PLATES</div>
     </div>
 
     <div class="textbox">
@@ -103,7 +103,8 @@
               veniam, quis nostrud exercitationulco laboris nisi ut aliquip ex
               ea commodo consequatuisaute.
             </p>
-             <br> <br>
+            <br />
+            <br />
             <div class="btn">View Details</div>
           </div>
         </div>
@@ -116,7 +117,8 @@
               definitiones id cum, ad meliore perpetua referrentur sed. Quas
               suscipit ad mea verear vivendo tincidunt.
             </p>
-            <br /> <br>
+            <br />
+            <br />
 
             <div class="btn">View Details</div>
           </div>
@@ -133,20 +135,35 @@
       <div class="pompeo Porcelain">Pottery Collection</div>
       <div class="store">
         <div class="photo">
-          <img src="img/9.png" alt="" /> <br> Decor Plate <br />
+          <img src="img/9.png" alt="" /> <br />
+          Decor Plate <br />
           <div class="price">$ 65.00 USD</div>
         </div>
         <div class="photo">
-          <img src="img/10.png" alt="" /> <br> Mint Pottery <br />
+          <img src="img/10.png" alt="" /> <br />
+          Mint Pottery <br />
           <div class="price">$ 75.00 USD</div>
         </div>
         <div class="photo">
-          <img src="img/11.png" alt="" /> <br> Set Of Potterys <br />
+          <img src="img/11.png" alt="" /> <br />
+          Set Of Potterys <br />
           <div class="price">$ 125.00 USD</div>
         </div>
-        <div class="photo"><img src="img/12.png" alt="" /> <br> Orange Ceramic <div class="price">$ 55.00 USD</div></div>
-        <div class="photo"><img src="img/13.png" alt="" /> <br> Dark Bowl <div class="price">$ 115.00 USD</div></div>
-        <div class="photo"><img src="img/14.png" alt="" /> <br> Square Pottery <div class="price">$ 75.00 USD</div></div>
+        <div class="photo">
+          <img src="img/12.png" alt="" /> <br />
+          Orange Ceramic
+          <div class="price">$ 55.00 USD</div>
+        </div>
+        <div class="photo">
+          <img src="img/13.png" alt="" /> <br />
+          Dark Bowl
+          <div class="price">$ 115.00 USD</div>
+        </div>
+        <div class="photo">
+          <img src="img/14.png" alt="" /> <br />
+          Square Pottery
+          <div class="price">$ 75.00 USD</div>
+        </div>
       </div>
     </div>
     <div><button class="butt view">VIEW All PRODUCTS</button></div>
@@ -154,16 +171,40 @@
     <div class="plates">
       <div class="head">
         <div class="pottery second">Pompeo Pottery</div>
-        <div class="pompeo">
-          Ready to start shopping?
-          
-        </div>
-        
+        <div class="pompeo">Ready to start shopping?</div>
+
         <div class="unique">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit <br> Suspendisse varius enim in eros elementum.
+          Lorem ipsum dolor sit amet,
+          <span class="in-text">consectetur adipiscing elit</span> <br />
+          Suspendisse varius enim in eros elementum.
         </div>
         <div><button class="butt">SHOP COLLECTION</button></div>
       </div>
     </div>
+
+    <div class="container">
+      <div class="latest-news">
+        <img src="img/tg.png" alt="" />
+        <span class="latest">Latest news</span>
+        <h1 class="news">Latest news <span class="i">&</span> New updates</h1>
+        <form class="form" action="#">
+          <input class="email" type="text" placeholder="Enter your email" />
+          <input class="subscribe" type="submit" value="Subscribe" />
+        </form>
+        <a class="letter" href=""> <div class="sq"></div> Sign up for our newsletter</a>
+      </div>
+    </div>
+    <footer class="footer">
+      <div class="footer-text"><div class="logo end">Pompeo <br> </div>I have always striven to fix beauty in wood, stone, <br>glass or pottery, that has been my creed.</div>
+   </div>
+
+   <div class="contacts">
+    <div class="contact"><img class="img-contact" src="img/mail.svg" alt="">EMAIL
+    <div class="contact-desc">pompeopotery@gmail.com</div></div> 
+    <div class="contact"><img src="img/location.svg" alt="">FIND <div class="contact-desc">Central Park, Manhattan <br>New York, 1101 </div></div>
+    <div class="contact"><img src="img/tel.svg" alt="">CALL <div class="contact-desc">+1 292 345 678</div></div>
+   </div>
+   <div class="bottom">Template design by <span class="author">Dorian Hoxha</span>- <span class="author">Image License Info</span>Powered by <span class="author">Webflow</span></div>
+    </footer>
   </body>
 </html>
